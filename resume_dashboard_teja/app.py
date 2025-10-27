@@ -83,7 +83,7 @@ def load_resume():
     DATA_PATH = Path(__file__).parent / "resume_data.json"
     if DATA_PATH.exists():
         with open(DATA_PATH, "r", encoding="utf-8") as f:
-        data = json.load(f)
+            data = json.load(f)
     else:
     # Fallback so CI doesn't crash if the file is missing
         data = {
