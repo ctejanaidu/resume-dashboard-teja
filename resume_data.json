@@ -1,0 +1,199 @@
+{
+  "profile": {
+    "name": "Teja Naidu Chintha",
+    "title": "Data Scientist",
+    "location": "Plano, TX (Open to Relocation)",
+    "phone": "812-822-7070",
+    "email": "ch.tejanaidu23@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/tejanaiduc/",
+    "portfolio": "https://public.tableau.com/app/profile/teja.naidu.chintha5908/viz/FraudDetection_17605896924560/FraudDectionInsights",
+    "publication": "https://www.sciencedirect.com/science/article/abs/pii/S0965997822002277?via%3Dihub",
+    "summary": "Data Scientist with 4 years of experience building ML models and data pipelines across finance and healthcare. Skilled in fraud detection, forecasting, NLP, and scalable model deployment using Python, Spark, and TensorFlow. Cloud-certified (AWS, Azure, GCP) with a published research record and proven impact in improving accuracy, reducing risk, and driving actionable insights."
+  },
+  "kpis": [
+    {
+      "label": "Experience",
+      "value": "4 yrs"
+    },
+    {
+      "label": "Domains",
+      "value": "Finance, Healthcare"
+    },
+    {
+      "label": "Data Volume",
+      "value": "50TB+"
+    },
+    {
+      "label": "Models Deployed",
+      "value": "Fraud, Forecasting, NLP"
+    }
+  ],
+  "skills": {
+    "Languages": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "Scala",
+      "SQL",
+      "NoSQL"
+    ],
+    "ML & AI": [
+      "Regression",
+      "Forecasting",
+      "Clustering",
+      "Anomaly Detection",
+      "Neural Networks",
+      "NLP",
+      "TensorFlow",
+      "PyTorch",
+      "Scikit-learn"
+    ],
+    "LLM & GenAI": [
+      "Transformers",
+      "LangChain",
+      "LangGraph",
+      "SciBERT",
+      "TAPAS",
+      "CLIP",
+      "BGE-M3",
+      "Prompt Engineering",
+      "Data Structures"
+    ],
+    "Vector & Retrieval": [
+      "FAISS",
+      "Vector Embeddings",
+      "Elasticsearch",
+      "Dense Retrieval",
+      "Data Modeling",
+      "Databricks"
+    ],
+    "Data Processing": [
+      "Apache Spark",
+      "PySpark",
+      "SciPy",
+      "Prophet",
+      "XGBoost",
+      "Snowflake",
+      "Explainability (SHAP)"
+    ],
+    "Cloud & MLOps": [
+      "AWS (SageMaker, Glue, S3, EMR)",
+      "MLflow",
+      "Airflow",
+      "Great Expectations",
+      "Kubernetes",
+      "CI/CD",
+      "Delta Lake"
+    ],
+    "Viz & Communication": [
+      "Power BI",
+      "Tableau",
+      "Streamlit",
+      "Excel (Advanced)",
+      "R",
+      "Git",
+      "Cassandra",
+      "Solr",
+      "VBA",
+      "DevOps"
+    ]
+  },
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect \u2013 Associate",
+      "year": 2024
+    },
+    {
+      "name": "Google Data Analytics",
+      "year": 2022
+    },
+    {
+      "name": "Alteryx Designer Core & Advanced",
+      "year": 2025
+    }
+  ],
+  "experience": [
+    {
+      "company": "U.S. Bank",
+      "role": "Data Scientist",
+      "location": "Dallas, TX",
+      "start": "2024-10-01",
+      "end": "2025-09-30",
+      "bullets": [
+        "Improved fraud detection accuracy by 20% via anomaly detection & risk-scoring models on 50TB+ transactions.",
+        "Reduced ETL runtime by 35% by optimizing Spark/Scala pipelines with Airflow orchestration.",
+        "Cut compliance reporting cycle from weeks to days through automated pipelines and Power BI dashboards.",
+        "Mentored junior analysts in Python & Spark feature engineering; improved team productivity.",
+        "Enabled 15% faster decisions for product & risk teams by operationalizing model outputs."
+      ]
+    },
+    {
+      "company": "Heartland Community Network",
+      "role": "Data Scientist / Data Science Engineer II",
+      "location": "Remote",
+      "start": "2023-07-01",
+      "end": "2024-09-30",
+      "bullets": [
+        "Improved healthcare forecast accuracy by 18% with predictive models & NLP pipelines in TensorFlow & scikit-learn.",
+        "Reduced manual validation by 40% via Alteryx automation; orchestrated with Kubernetes, CI/CD, and ADF.",
+        "Delivered real-time Power BI dashboards by streaming model outputs from on-prem & Azure.",
+        "Mentored engineers on ETL, CI/CD, and deploying ML into scalable pipelines."
+      ]
+    },
+    {
+      "company": "Cognizant (Client: TD Bank)",
+      "role": "Data Analyst",
+      "location": "Remote",
+      "start": "2021-01-01",
+      "end": "2022-07-31",
+      "bullets": [
+        "Improved retention insights via clustering & segmentation; informed business strategies.",
+        "Accelerated reporting by 40% through ML-ready features in SQL/Python.",
+        "Enhanced compliance monitoring with Power BI + anomaly detection; improved oversight.",
+        "Reduced reporting latency by 25% with automated ETL and executive-ready outputs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Fraud Detection System \u2014 Interactive Dashboard",
+      "highlights": [
+        "ROC-AUC improved 0.61 \u2192 0.99; PR-AUC 0.82 \u2192 0.94 with XGBoost + GRU RNNs over 50M records.",
+        "Velocity windows & 'impossible travel' features for sequence-aware signals.",
+        "Interactive dashboard reduced false positives and enabled earlier detection."
+      ],
+      "link": "https://public.tableau.com/app/profile/teja.naidu.chintha5908/viz/FraudDetection_17605896924560/FraudDectionInsights"
+    },
+    {
+      "name": "Multimodal Document Intelligence for Compliance (GenAI)",
+      "highlights": [
+        "60% faster compliance document review leveraging TAPAS + SciBERT + CLIP.",
+        "Context-aware retrieval & reasoning via LangGraph + BGE-M3 embeddings (\u2191 anomaly detection +30%).",
+        "Guardrails enforce structured, audit-ready outputs and prevent hallucinations."
+      ],
+      "link": ""
+    },
+    {
+      "name": "End-to-End Crop Yield Prediction \u2014 ScienceDirect",
+      "highlights": [
+        "Significant uplift in forecast accuracy using ensembles (RF, GBM, XGBoost) on weather/soil/NDVI data.",
+        "100+ citations; included an interactive dashboard for agronomists."
+      ],
+      "link": "https://www.sciencedirect.com/science/article/abs/pii/S0965997822002277?via%3Dihub"
+    }
+  ],
+  "education": [
+    {
+      "school": "Indiana University Bloomington",
+      "degree": "Masters in Data Science",
+      "grad_date": "2024-05-01",
+      "location": "Bloomington, IN"
+    },
+    {
+      "school": "SRM University",
+      "degree": "Bachelors in Computer Science",
+      "grad_date": "2021-05-01",
+      "location": "Chennai, India"
+    }
+  ]
+}
