@@ -7,6 +7,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 import plotly.express as px
+from pathlib import Path
 
 # ------------- Page Config -------------
 st.set_page_config(
@@ -79,8 +80,22 @@ st.markdown(
 # ------------- Load Data -------------
 @st.cache_data
 def load_resume():
-    with open("resume_data.json","r") as f:
-        return json.load(f)
+    DATA_PATH = Path(__file__).parent / "resume_data.json"
+    if DATA_PATH.exists():
+        with open(DATA_PATH, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    else:
+    # Fallback so CI doesn't crash if the file is missing
+        data = {
+            "name": "Your Name",
+            "title": "Data Scientist / Data Engineer",
+            "location": "City, ST",
+            "links": {},
+            "summary": "Sample summary (fallback used because resume_data.json not found).",
+            "skills": [],
+            "experience": [],
+            "projects": [],
+        }
 
 data = load_resume()
 
