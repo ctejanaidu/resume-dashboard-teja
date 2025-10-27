@@ -127,12 +127,17 @@ def main():
     st.divider()
 
     # ------------- Skills -------------
-    st.markdown("<div class='section-title'>Skills Matrix</div>", unsafe_allow_html=True)
-    view = st.segmented_control(
-        "View",
-        options=["All", "Languages", "ML & AI", "LLM & GenAI", "Vector & Retrieval", "Data Processing", "Cloud & MLOps", "Viz & Communication"],
-        selection_mode="single"
-    )
+st.markdown("<div class='section-title'>Skills Matrix</div>", unsafe_allow_html=True)
+
+OPTIONS = ["All", "Languages", "ML & AI", "LLM & GenAI",
+           "Vector & Retrieval", "Data Processing", "Cloud & MLOps", "Viz & Communication"]
+
+try:
+    # Streamlit 1.38+ (preferred segmented UI)
+    view = st.segmented_control("View", options=OPTIONS)
+except AttributeError:
+    # Fallback for older Streamlit
+    view = st.radio("View", OPTIONS, horizontal=True)
 
     def chip_line(items):
         return " ".join([f"<span class='chip'>{item}</span>" for item in items])
